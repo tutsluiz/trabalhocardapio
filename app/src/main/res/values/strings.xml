@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Trabalho</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Domingo</item>
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+        <item>Sabado</item>
+    </string-array>
+</resources>

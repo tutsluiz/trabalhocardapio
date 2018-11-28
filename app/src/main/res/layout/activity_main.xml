@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d11f08"
+        android:entries="@array/android_dropdown_arrays"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/cafeM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Cafe da Manha"
+        />
+
+    <EditText
+        android:id="@+id/almoco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Almoco"
+        />
+
+    <EditText
+        android:id="@+id/jantar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Jantar"
+        />
+
+    <Button
+        android:id="@+id/salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Salvar"
+        android:textSize="15sp"
+        android:onClick="Salvar"
+        />
+
+    <Button
+        android:id="@+id/listar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Listar"
+        android:textSize="15sp"
+        android:onClick="Listar"
+        />
+
+</LinearLayout>
