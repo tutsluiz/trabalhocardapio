@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Trabalho</string>
+    <string name="app_name">TRABALHO CARDAPIO</string>
 
     <string-array name="android_dropdown_arrays">
         <item>Domingo</item>
